@@ -4,11 +4,10 @@
     box-sizing: border-box;
   }
 
-body {
-/* more on this crazy alphanumerical value in a minute! */
-    color: #39a6b2
+  body {
     font-family: Helvetica, Arial, sans-serif;
-}
+    background-color: tomato;
+  }
 
 /* apply styles to <header> */
 header {
