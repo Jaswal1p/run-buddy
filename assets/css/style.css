@@ -83,7 +83,7 @@ header {
       height: 600px;
       background-size: cover;
       background-position: center;
-      position:relative;
+      position: relative;
   }
   /* Hero Style End */
 
@@ -147,7 +147,7 @@ header {
     font-size: 55px;
     color: #024e76;
     margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
+    padding: 0px 100px 20px 100px;
     display: inline-block;
     border-bottom: 3px solid;
   }
