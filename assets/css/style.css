@@ -87,14 +87,14 @@ header {
 
   /* Hero Style Start */
   .hero {
-      display:flex;
-      justify-content: center;
-      flex-wrap: wrap;
       background-image: url("../images/hero-bg.jpg");
       background-size: cover;
       background-position: center;
+      display:flex;
+      justify-content: center;
+      flex-wrap: wrap;
   }
-  /* Hero Style End */
+
   .hero-cta {
       width: 35%;
       text-align: right;
@@ -110,9 +110,9 @@ header {
   }
 
   .hero-form {
+      border: 3px solid #024e76;
       background-color: #fce138;
       padding:20px;
-      border: solid 3px #024e76;
       color: #024e76;
       width: 40%;
       margin: 3.5%;
@@ -137,6 +137,10 @@ header {
       margin-bottom: 15px;
   } 
 
+  .hero-form label {
+    margin: 0 5px;
+  }
+
   .hero-form button {
       background-color: #024e76;
       border: none;
@@ -145,26 +149,12 @@ header {
       font-size: 16px;
   }
 
-  .intro p {
-    /* add this alongside your other declarations */
-    margin: 0 auto;
-    line-height: 1.7;
-    color: #39a6b2;
-    width: 80%;
-    font-size: 20px;
-    text-align: center;
-  }
-
-  .steps {
-    background: #fce138;
-  }
+  /* Hero styles end */
 
   .section-title {
     font-size: 55px;
+    border-bottom: 3px solid;
     color: #024e76;
-    text-align: center;
-    margin: 0 auto 35px auto;
-    width: 50%;
     padding-bottom: 20px;
     text-align: center;
     margin: 0 auto 35px auto;
@@ -178,7 +168,19 @@ header {
   .secondary-border {
     border-color: #39a6b2;
   }
+  
+  .intro p {
+    margin: 0 auto;
+    line-height: 1.7;
+    color: #39a6b2;
+    width: 80%;
+    font-size: 20px;
+    text-align: center;
+  }
 
+  .steps {
+    background: #fce138;
+  }
   .step {
     margin: 50px;
     padding-bottom: 50px;
@@ -216,19 +218,25 @@ header {
     flex: 12;
   }
 
-  .step h4 {
-    font-size: 26px;
-    line-height: 1.5;
-    color: #024e76;
-  }
-
   .step-text p {
     color: #39a6b2;
     font-size: 18px;
   }
 
+ .step-text h4 {
+    font-size: 26px;
+    line-height: 1.5;
+    color: #024e76;
+  }
+
+  /* What we do styles ends here --*/
+
   .trainers {
-    
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
   }
 
   .trainer {
@@ -248,10 +256,6 @@ header {
     padding: 35px;
     float: left;
     width: 65%;
-  }
-
-  .flex-row {
-    display: flex;
   }
 
   .trainer-bio h3 {
@@ -308,10 +312,16 @@ header {
     color: #fce138;
   }
 
+  /* utilities */
+
   .text-left {
     text-align: left;
   }
   
   .text-right {
     text-align: right;
+  }
+
+  .flex-row {
+    display: flex;
   }
